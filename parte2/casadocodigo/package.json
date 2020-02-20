@@ -1,0 +1,27 @@
+{
+  "name": "casadocodigo",
+  "version": "1.0.0",
+  "description": "Livraria teste",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brunohvc/Learning-NodeJS"
+  },
+  "author": "Bruno Henrique",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "4.17.1",
+    "express-validator": "5.3.1",
+    "marko": "^4.18.34",
+    "method-override": "^3.0.0",
+    "sqlite": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
